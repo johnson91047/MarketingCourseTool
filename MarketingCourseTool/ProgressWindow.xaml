@@ -1,0 +1,33 @@
+﻿<Window x:Class="MarketingCourseTool.ProgressWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:viewModels="clr-namespace:MarketingCourseTool.ViewModel"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        d:DataContext="{d:DesignInstance viewModels:ProgressViewModel}"
+        Title="MainWindow" Height="100" Width="300" Loaded="Window_Loaded">
+
+    <Grid Margin="6">
+        <materialDesign:Card>
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="{Binding ProgressTitle}"></Label>
+                <ProgressBar 
+                    Grid.Row="1"
+                    Height="8"
+                    Value="{Binding ProgressValue}" />
+            </Grid>
+        </materialDesign:Card>
+    </Grid>
+</Window>

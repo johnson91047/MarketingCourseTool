@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingCourseTool", "MarketingCourseTool\MarketingCourseTool.csproj", "{2BFE12DE-FD45-48AE-807A-0CE9480C6B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingCoursePostTool", "MarketingCoursePostTool\MarketingCoursePostTool.csproj", "{CED5341B-9717-485C-8541-9BB72732F7DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BFE12DE-FD45-48AE-807A-0CE9480C6B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFE12DE-FD45-48AE-807A-0CE9480C6B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFE12DE-FD45-48AE-807A-0CE9480C6B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFE12DE-FD45-48AE-807A-0CE9480C6B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED5341B-9717-485C-8541-9BB72732F7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED5341B-9717-485C-8541-9BB72732F7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED5341B-9717-485C-8541-9BB72732F7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED5341B-9717-485C-8541-9BB72732F7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C3CB8A8-3F31-42F4-A9C6-B9CF744743D2}
+	EndGlobalSection
+EndGlobal
